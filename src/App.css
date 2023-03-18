@@ -1,0 +1,52 @@
+table {
+width: 75%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border: 2px solid rgb(223, 222, 222);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+  border: 2px solid rgb(223, 222, 222);
+}
+tr:hover{
+  background-color: grey;
+}
+
+
+th {
+  background-color: #e4e4e4;
+  color: black;
+
+  align-items: flex-start;
+}
+.genre-filter{
+  width: 75%;
+  background: whitesmoke;
+}
+.btns{
+  margin-left: 10px;
+
+    margin-right: 10px;
+}
+button{
+ height: 40px;
+ cursor: pointer;
+ border: none;
+ border-radius: 5px;
+ background-color: #e4e4e4;
+}
+button:hover{
+  background: grey;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  table{
+    width: 90%;
+  }
+  .genre-filter{
+    width: 90%;
+  }
+}
+
